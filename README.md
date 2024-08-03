@@ -20,6 +20,9 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 
 ### Pipeline Stages
 
+![image](https://github.com/user-attachments/assets/08425a20-2dea-499b-a8c0-39b3735f4b9b)
+
+
 **Build 🏗️**
 
 - **Objective:** Set up the environment and install dependencies.
