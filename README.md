@@ -167,12 +167,3 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
       }
       ```
 
-## 📋 Submission Guidelines
-
-- **Code Commit:** Ensure all code is committed to the repository.
-- **Documentation:** Provide clear and detailed documentation on how to set up and run the project.
-- **Deployment Instructions:** Include instructions for deployment and any required configurations.
-
----
-
-Feel free to customize these suggestions according to your preferences and project needs!
