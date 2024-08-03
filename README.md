@@ -1,8 +1,13 @@
 # DevOps-Technical-Assignment
+
+
+
 Introduction
 Hi, I’m Karim. This README outlines how I approached and solved the DevOps technical assignment provided by 34ML. The assignment aimed to evaluate my skills across various DevOps practices, including CI/CD pipeline setup, bash scripting, Terraform infrastructure provisioning, and NGINX hosting. This document provides a comprehensive overview of the tasks and implementations.
 
 Table of Contents
+
+
 Version Control and CI/CD Setup
 Pipeline Stages
 Failure Handling
@@ -15,6 +20,7 @@ Submission Guidelines
 Version Control and CI/CD Setup
 Pipeline Stages
 Build
+
 
 Objective: Set up the environment and install dependencies.
 Implementation:
