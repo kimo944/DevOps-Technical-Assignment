@@ -43,6 +43,10 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 
 **Dockerize 🐳**
 
+![image](https://github.com/user-attachments/assets/3c95e568-4da3-4b08-afb7-688d47711d2a)
+
+
+
 - **Objective:** Create Dockerfile and docker-compose.yml to containerize the application.
 - **Dockerfile:**
     ```Dockerfile
@@ -117,7 +121,15 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 
 ## 🌐 Terraform
 
+![image](https://github.com/user-attachments/assets/cc798d68-75fa-4d04-a2b1-9dd03828fe22)
+
+
 - **Objective:** Use Terraform to define and provision AWS infrastructure for hosting the Flask application.
+
+- ![image](https://github.com/user-attachments/assets/9e67abc5-487f-4602-8fba-54a86de5725c)
+
+- 
+
 - **Implementation:**
     ```hcl
     provider "aws" {
