@@ -158,7 +158,7 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 
 ## 🌍 Hosting
 
-![image](https://github.com/user-attachments/assets/1bf071fb-bb11-49f2-b8f1-2f93de2b81cf)
+![image](https://github.com/user-attachments/assets/21afc40b-b693-4d81-8224-d027c758c032)
 
 
 - **Objective:** Install and configure NGINX to host the Flask application.
