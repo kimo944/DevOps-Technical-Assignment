@@ -19,7 +19,7 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 ## 🚀 Version Control and CI/CD Setup
 
 ### Pipeline Stages
-
+![image](https://github.com/user-attachments/assets/643172e6-e39f-4b4e-9e48-bd9cf6d6525b)
 ![image](https://github.com/user-attachments/assets/08425a20-2dea-499b-a8c0-39b3735f4b9b)
 
 
