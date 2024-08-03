@@ -405,3 +405,6 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
       ```
 
 ![image](https://github.com/user-attachments/assets/6ac14711-d7ec-4b24-944a-3d8e4c6bab3f)
+![image](https://github.com/user-attachments/assets/a0ce1d0e-90da-41cc-b769-4060808791e3)
+![image](https://github.com/user-attachments/assets/62801edf-e2a7-4172-bef7-00ee74974f57)
+
