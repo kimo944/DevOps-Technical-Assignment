@@ -1,4 +1,4 @@
-![Header Image](https://example.com/header-image.png)
+![image](https://github.com/user-attachments/assets/13187e04-6231-499a-8dfa-8c83a5726431)
 
 # 🛠️ DevOps Technical Assignment
 
