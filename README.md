@@ -17,6 +17,7 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 - [Submission Guidelines](#submission-guidelines)
 
 ## 🚀 Version Control and CI/CD Setup
+![image](https://github.com/user-attachments/assets/a7df3f8a-9fb0-4cdf-9e1e-90f6d0954f54)
 
 ### Pipeline Stages
 ![image](https://github.com/user-attachments/assets/643172e6-e39f-4b4e-9e48-bd9cf6d6525b)
@@ -40,7 +41,79 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
     ```bash
     pytest --maxfail=1 --disable-warnings -q
     ```
+- **Implementation:**
+    ```hcl
+  name: CI/CD Pipeline
 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: |
+          source venv/bin/activate
+          pytest integration_tests/
+        env:
+          PYTHONPATH: .  # Ensure PYTHONPATH is set to the root directory
+
+  dockerize:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: docker build -t flask-example .
+
+      - name: Run Docker container
+        run: |
+          docker run -d -p 5000:5000 --name flask-example flask-example
+          sleep 10  # Allow time for the container to start
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: dockerize
+
+    steps:
+      - name: Simulate deployment
+        run: echo "Simulating deployment..."
+
+  cleanup:
+    runs-on: ubuntu-latest
+    needs: [dockerize, deploy]
+
+    steps:
+      - name: Cleanup Docker
+        run: |
+          docker stop flask-example || true
+          docker rm flask-example || true
+
+    ```
 **Dockerize 🐳**
 
 ![image](https://github.com/user-attachments/assets/3c95e568-4da3-4b08-afb7-688d47711d2a)
@@ -185,3 +258,4 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
       }
       ```
 
+![image](https://github.com/user-attachments/assets/6ac14711-d7ec-4b24-944a-3d8e4c6bab3f)
