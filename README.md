@@ -45,17 +45,17 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
     ```hcl
   name: CI/CD Pipeline
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  on:
+    push:
+      branches:
+        - main
+    pull_request:
+      branches:
+        - main
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
