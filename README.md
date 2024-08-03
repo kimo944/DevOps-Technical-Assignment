@@ -128,7 +128,7 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
 
 - ![image](https://github.com/user-attachments/assets/9e67abc5-487f-4602-8fba-54a86de5725c)
 
-- 
+  
 
 - **Implementation:**
     ```hcl
@@ -157,6 +157,9 @@ Hi, I’m Karim! This README outlines how I approached and solved the DevOps tec
     ```
 
 ## 🌍 Hosting
+
+![image](https://github.com/user-attachments/assets/1bf071fb-bb11-49f2-b8f1-2f93de2b81cf)
+
 
 - **Objective:** Install and configure NGINX to host the Flask application.
 - **Implementation:**
